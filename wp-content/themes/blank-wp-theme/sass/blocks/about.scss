@@ -1,0 +1,40 @@
+p,
+span{
+    font-family: 'Roboto Thin';
+    .bold{
+        font-family: 'Roboto Bold';
+    }
+}
+a{
+    color: black;
+    &:hover{
+        color: black;
+    }
+}
+
+.owl-carousel{
+    .owl-stage-outer{
+        .owl-stage{
+            .owl-item{
+                max-height:659px;
+                img{
+                    height:100%;
+                }
+            }
+        }
+    }
+    .owl-dots{
+        margin-top:29px;
+        line-height: 0;
+        .owl-dot{
+            width:7px;
+            height:7px;
+            border-radius:50%;
+            background-color:#000000;
+            margin-right:10px;
+        }
+        .active{
+            background-color: #BBBABA;
+        }
+    }
+}

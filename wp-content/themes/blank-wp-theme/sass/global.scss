@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(http://parscale.test/wp-content/themes/blank-wp-theme/fonts/Roboto-Bold.ttf);
+    font-weight: normal;
+    }
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(http://parscale.test/wp-content/themes/blank-wp-theme/fonts/Roboto-Black.ttf);
+    font-weight: normal;
+        }
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url(http://parscale.test/wp-content/themes/blank-wp-theme/fonts/Roboto-Thin.ttf);
+    font-weight: normal;
+            }
+.row{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Roboto Bold';
+}
+
+img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
